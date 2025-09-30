@@ -196,7 +196,7 @@ jobs:
         uses: dorny/test-reporter@v1
         with:
           name: Combined Unit Tests
-          path: "reports/Unit/**/TEST-*.xml"
+          path: "reports/unit/**/TEST-*.xml"
           reporter: java-junit
 
 

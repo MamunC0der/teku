@@ -32,7 +32,7 @@ permissions:
 jobs:
   matrix-tests-template:
 
-    runs-on: gha-runner-scale-set-ubuntu-22.04-amd64-med
+    runs-on: gha-runner-scale-set-ubuntu-22.04-amd64-large 
     environment: dev
     strategy:
       fail-fast: false
